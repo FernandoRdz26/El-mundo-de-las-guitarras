@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El mundo de las guitarras</title>
+
+    <style>
+        *{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        body{ background-attachment: fixed; margin: 0; overflow-x: hidden; background: url(Img/guitarramarilla.avif); background-repeat: no-repeat; background-size: cover; display: block;}
+        /* background: radial-gradient(rgb(243, 242, 242),rgb(109, 109, 109));} */
+        header{text-align: center; background: rgba(26, 25, 25, 0.596); color: white;}
+        .quees{color: white; width: 600px; background-color: rgba(26, 25, 25, 0.596); border-radius: 8px; margin-left: 20px; padding: 10px; box-sizing: border-box; text-align: center;
+            display: block; margin-top: 100px;}
+        .contenido{display: flex; margin-top: 20px; margin-bottom: 250px;}
+        .imagendemostrativa{position: absolute; right: 30px;}
+        img{border-radius: 20px;}
+        .partes{display: flex; justify-content: center; margin-bottom: 80px;}
+        .partes div{display: inline-block; width: 300px; background-color: rgba(26, 25, 25, 0.596); margin-right: 30px; color: white; text-align: center; border-radius: 7px;}
+        .Modelosiconicos{display: flex; justify-content: center;}
+        .Modelosiconicos div{display: flex; width: 300px; background-color: rgba(26, 25, 25, 0.596); margin-right: 30px; color: white; text-align: center; 
+            border-radius: 7px; flex-direction: column; padding: 10px; align-items: center;}
+    </style>
+
+</head>
+<body>
+    
+    <header>
+
+        <hr color="black">
+        <h1>El mundo de las guitarras</h1>
+        <hr color="black">
+
+    </header>
+
+    <div class="contenido">
+
+        <div class="quees">
+            <h1>¿Qué es un guitarra eléctrica y cómo funciona?</h1>
+            <hr color="black">
+            <p>A diferencia de una guitarra acústica (que usa una caja de madera hueca para amplificar el sonido por aire), 
+                la guitarra eléctrica necesita un amplificador externo para sonar con fuerza.</p>
+            <p>Cuenta con pastillas (pickups), que son imanes envueltos en alambre de cobre. Cuando una cuerda de acero vibra sobre ellas, 
+                genera una pequeña señal eléctrica que viaja por el cable hasta el amplificador, el cual la convierte en sonido audible.</p>
+            
+        </div>
+
+        <div class="imagendemostrativa">
+            <img src="Img/guitarra.avif" alt="guitarraelectrica" width="800px" height="auto">   
+        </div>
+
+    </div>
+    
+    <div class="partes">
+
+        <div>
+            <h2>Cuerpo</h2>
+            <p>La base de la madera puede ser maciza o semihueca. Define gran parte del peso y el diseño visual</p>
+        </div>
+        <div>
+            <h2>Mástil</h2>
+            <p>El mango largo de madera donde se colocan los dedos</p>
+        </div>
+        <div>
+            <h2>Diapasón</h2>
+            <p>La placa sobre el mástil donde están incrustados los trastes. Al presionar una cuerda contra un traste, cambia la nota musical</p>
+        </div>
+        <div>
+            <h2>Clavijero</h2>
+            <p>La parte superior donde están las clavijas metálicas que sirven para afinar la tensión de las cuerdas</p>
+        </div>
+        <div>
+            <h2>Pickups</h2>
+            <ul>
+                <li>Single-Coil:Sonido brillante, claro y con un ligero zumbido (ideal para rock clásico, funk, blues).</li>
+                <li>Humbucker:Sonido más potente, grueso y sin zumbidos (el favorito para hard rock y heavy metal).</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="Modelosiconicos">
+
+        <div>
+            <h2>Fender Stratocaster ("Strat")</h2>
+            <p>Cuerpo con curvas asimétricas y tres pastillas</p>
+            <p>Versátil, brillante y cristalino</p>
+            <img src="Img/Stratocaster.webp" alt="Strat" height="300px" width="250px">
+        </div>
+        <div>
+            <h2>Gibson Les Paul</h2>
+            <p>Cuerpo más pesado de caoba con una tapa de maple arqueada y un sonido más cálido.</p>
+            <p>Grueso, con mucho "sustain" (duración de la nota).</p>
+            <img src="Img/gibson.jpg" alt="Gibson" height="300px" width="200px">
+        </div>
+        <div>
+            <h2>Fender Telecaster</h2>
+            <p>La primera guitarra eléctrica de cuerpo maciza producida en masa, de formas más rectas y sencillas</p>
+            <p>Twang característico, directo y con mucha mordida.</p>
+            <img src="Img/telecaster.webp" alt="Telecaster" height="300px" width="250px">
+        </div>
+
+    </div>
+
+    </div>
+</body>
+</html>
